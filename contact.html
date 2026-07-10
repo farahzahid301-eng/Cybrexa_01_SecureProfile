@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | SecureProfile</title>
+    <meta name="description" content="Connect with Farah Zahid for studies, projects, or questions.">
+
+    <!-- Favicon -->
+    <link type="image/png" href="images/favicon.png" rel="icon">
+
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <h2>Personal<span>Portfolio</span></h2>
+        </div>
+
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html" class="active" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section">
+    <!-- Bilkul simple top text bina kisi mushkil word ke -->
+    <div class="section-title">
+        <h2>Say Hello!</h2>
+        <p>If you have a question, want to group study, or want to work on a project together, just let me know.</p>
+    </div>
+
+    <div class="contact-container">
+        <!-- Left Side: Simple Links -->
+        <div class="contact-info">
+            <div class="info-card">
+                <i class="fas fa-envelope"></i>
+                <div>
+                    <h3>My Email</h3>
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=farahzahid301@gmail.com" target="_blank" rel="noopener noreferrer">farahzahid301@gmail.com</a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <i class="fab fa-linkedin"></i>
+                <div>
+                    <h3>My LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/farah-zahid-30135b285" target="_blank" rel="noopener noreferrer">Farah Zahid</a>
+                </div>
+            </div>
+
+            <div class="info-card">
+                <i class="fab fa-github"></i>
+                <div>
+                    <h3>My GitHub</h3>
+                    <a href="https://github.com/farahzahid301-eng" target="_blank" rel="noopener noreferrer">farahzahid301-eng</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Side: Clean Student Form -->
+        <div class="contact-form-box">
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" placeholder="xyz@gmail.com" required>
+                </div>
+
+                <!-- Bilkul basic dropdown bina kisi formal terminology ke -->
+                <div class="form-group">
+                    <label for="purpose">Reason to Message</label>
+                    <select id="purpose" style="width: 100%; background: #1e293b; border: 1px solid #334155; padding: 12px 16px; color: #ffffff; border-radius: 6px; font-size: 14px; outline: none; transition: border-color 0.3s ease;" required>
+                        <option value="" disabled selected>Choose a option...</option>
+                        <option value="project">Study / Project Partner</option>
+                        <option value="question">Have a Question</option>
+                        <option value="hello">Just Saying Hi</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" rows="5" placeholder="Type your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn">
+                    Send Message <i class="fas fa-paper-plane" style="margin-left: 6px;"></i>
+                </button>
+
+                <p id="formStatus" style="margin-top: 15px; font-size: 14px; text-align: center; font-weight: 500;"></p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <div class="footer-content">
+        <h2>Personal<span>Portfolio</span></h2>
+        <p>Designed & Developed by Farah Zahid</p>
+        
+        <div class="social-icons" style="margin: 15px 0;">
+            <a href="https://github.com/farahzahid301-eng" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; margin: 0 10px; font-size: 20px;"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/farah-zahid-30135b285" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; margin: 0 10px; font-size: 20px;"><i class="fab fa-linkedin"></i></a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=farahzahid301@gmail.com" target="_blank" rel="noopener noreferrer" style="color: #cbd5e1; margin: 0 10px; font-size: 20px;"><i class="fas fa-envelope"></i></a>
+        </div>
+
+        <p style="font-size: 13px; color: #64748b; margin-top: 10px;">© 2026 All Rights Reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
